@@ -1,0 +1,588 @@
+[
+    {
+        "end": "2025-10-21T12:22:54Z",
+        "granularity": "PT1M",
+        "groupId": "68f7484c648ed318b49b8db9",
+        "hostId": "atlas-1314s5-shard-00-00.kyecfb.mongodb.net:27017",
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/atlas-1314s5-shard-00-00.kyecfb.mongodb.net:27017/disks/data/measurements?granularity=PT1M&start=2025-10-21T12:22:54.498595Z&end=2025-10-21T12:24:00Z&pretty=true",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/atlas-1314s5-shard-00-00.kyecfb.mongodb.net:27017",
+                "rel": "https://cloud.mongodb.com/host"
+            }
+        ],
+        "measurements": [
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_IOPS_READ",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_IOPS_WRITE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_IOPS_TOTAL",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_LATENCY_READ",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_LATENCY_WRITE",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_THROUGHPUT_READ",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_THROUGHPUT_WRITE",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 432475609770
+                    }
+                ],
+                "name": "DISK_PARTITION_SPACE_FREE",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 104133158230
+                    }
+                ],
+                "name": "DISK_PARTITION_SPACE_USED",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 80.59421231273407
+                    }
+                ],
+                "name": "DISK_PARTITION_SPACE_PERCENT_FREE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 19.405787687265928
+                    }
+                ],
+                "name": "DISK_PARTITION_SPACE_PERCENT_USED",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_QUEUE_DEPTH",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 3.0
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_IOPS_READ",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 24.97502497502498
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_IOPS_WRITE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 9.990009990009991
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_IOPS_TOTAL",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 0.6666666666666666
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_LATENCY_READ",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 2.0
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_LATENCY_WRITE",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 432475652096
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_SPACE_FREE",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 104133173248
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_SPACE_USED",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 80.59422020029311
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_SPACE_PERCENT_FREE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:54Z",
+                        "value": 19.405790486077187
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_SPACE_PERCENT_USED",
+                "units": "PERCENT"
+            }
+        ],
+        "partitionName": "data",
+        "processId": "atlas-1314s5-shard-00-00.kyecfb.mongodb.net:27017",
+        "start": "2025-10-21T12:22:54Z"
+    },
+    {
+        "granularity": "PT1M",
+        "groupId": "68f7484c648ed318b49b8db9",
+        "hostId": "atlas-1314s5-shard-00-01.kyecfb.mongodb.net:27017",
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/atlas-1314s5-shard-00-01.kyecfb.mongodb.net:27017/disks/data/measurements?granularity=PT1M&start=2025-10-21T12:22:54.498595Z&end=2025-10-21T12:24:00Z&pretty=true",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/atlas-1314s5-shard-00-01.kyecfb.mongodb.net:27017",
+                "rel": "https://cloud.mongodb.com/host"
+            }
+        ],
+        "measurements": [
+            {
+                "dataPoints": [],
+                "name": "DISK_PARTITION_IOPS_READ",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [],
+                "name": "DISK_PARTITION_IOPS_WRITE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [],
+                "name": "DISK_PARTITION_IOPS_TOTAL",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [],
+                "name": "DISK_PARTITION_LATENCY_READ",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [],
+                "name": "DISK_PARTITION_LATENCY_WRITE",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [],
+                "name": "DISK_PARTITION_THROUGHPUT_READ",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [],
+                "name": "DISK_PARTITION_THROUGHPUT_WRITE",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [],
+                "name": "DISK_PARTITION_SPACE_FREE",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "DISK_PARTITION_SPACE_USED",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "DISK_PARTITION_SPACE_PERCENT_FREE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "DISK_PARTITION_SPACE_PERCENT_USED",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "DISK_QUEUE_DEPTH",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [],
+                "name": "MAX_DISK_PARTITION_IOPS_READ",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [],
+                "name": "MAX_DISK_PARTITION_IOPS_WRITE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [],
+                "name": "MAX_DISK_PARTITION_IOPS_TOTAL",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [],
+                "name": "MAX_DISK_PARTITION_LATENCY_READ",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [],
+                "name": "MAX_DISK_PARTITION_LATENCY_WRITE",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [],
+                "name": "MAX_DISK_PARTITION_SPACE_FREE",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "MAX_DISK_PARTITION_SPACE_USED",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "MAX_DISK_PARTITION_SPACE_PERCENT_FREE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "MAX_DISK_PARTITION_SPACE_PERCENT_USED",
+                "units": "PERCENT"
+            }
+        ],
+        "partitionName": "data",
+        "processId": "atlas-1314s5-shard-00-01.kyecfb.mongodb.net:27017"
+    },
+    {
+        "end": "2025-10-21T12:22:55Z",
+        "granularity": "PT1M",
+        "groupId": "68f7484c648ed318b49b8db9",
+        "hostId": "atlas-1314s5-shard-00-02.kyecfb.mongodb.net:27017",
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/atlas-1314s5-shard-00-02.kyecfb.mongodb.net:27017/disks/data/measurements?granularity=PT1M&start=2025-10-21T12:22:54.498595Z&end=2025-10-21T12:24:00Z&pretty=true",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/atlas-1314s5-shard-00-02.kyecfb.mongodb.net:27017",
+                "rel": "https://cloud.mongodb.com/host"
+            }
+        ],
+        "measurements": [
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_IOPS_READ",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_IOPS_WRITE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_IOPS_TOTAL",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_LATENCY_READ",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_LATENCY_WRITE",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_THROUGHPUT_READ",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_PARTITION_THROUGHPUT_WRITE",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 432373536085
+                    }
+                ],
+                "name": "DISK_PARTITION_SPACE_FREE",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 104235231915
+                    }
+                ],
+                "name": "DISK_PARTITION_SPACE_USED",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 80.57519031916625
+                    }
+                ],
+                "name": "DISK_PARTITION_SPACE_PERCENT_FREE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 19.424809680833746
+                    }
+                ],
+                "name": "DISK_PARTITION_SPACE_PERCENT_USED",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": null
+                    }
+                ],
+                "name": "DISK_QUEUE_DEPTH",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 3.0
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_IOPS_READ",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 53.94605394605395
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_IOPS_WRITE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 9.990009990009991
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_IOPS_TOTAL",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 0.6666666666666666
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_LATENCY_READ",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 2.0
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_LATENCY_WRITE",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 432373600256
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_SPACE_FREE",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 104235294720
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_SPACE_USED",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 80.57520227772349
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_SPACE_PERCENT_FREE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T12:22:55Z",
+                        "value": 19.424821384953592
+                    }
+                ],
+                "name": "MAX_DISK_PARTITION_SPACE_PERCENT_USED",
+                "units": "PERCENT"
+            }
+        ],
+        "partitionName": "data",
+        "processId": "atlas-1314s5-shard-00-02.kyecfb.mongodb.net:27017",
+        "start": "2025-10-21T12:22:55Z"
+    }
+]

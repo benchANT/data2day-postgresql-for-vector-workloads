@@ -1,0 +1,72 @@
+2025-10-14 20:24:32,839 | [92mINFO[0m: [92mTask:
+TaskConfig(db=<DB.PgVectoRS: 'PgVectoRS'>, db_config=PgVectoRSConfig(db_label='2025-10-14T20:24:32.769232', version='', note='', user_name=SecretStr('**********'), password=SecretStr('**********'), host='172.31.29.93', port=5432, db_name='benchantdb'), db_case_config=PgVectoRSHNSWConfig(metric_type=None, create_index_before_load=False, create_index_after_load=True, max_parallel_workers=None, maintenance_work_mem=None, optimizing_threads=16, quantization_type='trivial', quantization_ratio=None, index=<IndexType.HNSW: 'HNSW'>, m=32, ef_search=64, ef_construction=128), case_config=CaseConfig(case_id=<CaseType.Performance768D1M: 5>, custom_case={}, k=100, serial_search_limit=None, skip_optimize=False, concurrency_search_config=ConcurrencySearchConfig(num_concurrency=[1, 5, 10, 20, 30, 40, 60, 80], concurrency_duration=30, concurrency_timeout=3600)), stages=['index_only'])
+[0m (cli.py:627) (366)
+2025-10-14 20:24:32,839 | [94mDEBUG[0m: [94mtasks: [TaskConfig(db=<DB.PgVectoRS: 'PgVectoRS'>, db_config=PgVectoRSConfig(db_label='2025-10-14T20:24:32.769232', version='', note='', user_name=SecretStr('**********'), password=SecretStr('**********'), host='172.31.29.93', port=5432, db_name='benchantdb'), db_case_config=PgVectoRSHNSWConfig(metric_type=None, create_index_before_load=False, create_index_after_load=True, max_parallel_workers=None, maintenance_work_mem=None, optimizing_threads=16, quantization_type='trivial', quantization_ratio=None, index=<IndexType.HNSW: 'HNSW'>, m=32, ef_search=64, ef_construction=128), case_config=CaseConfig(case_id=<CaseType.Performance768D1M: 5>, custom_case={}, k=100, serial_search_limit=None, skip_optimize=False, concurrency_search_config=ConcurrencySearchConfig(num_concurrency=[1, 5, 10, 20, 30, 40, 60, 80], concurrency_duration=30, concurrency_timeout=3600)), stages=['index_only'])], task_label: None, dataset source: DatasetSource.S3[0m (interface.py:68) (366)
+2025-10-14 20:24:32,839 | [92mINFO[0m: [92mgenerated uuid for the tasks: 827657537159404e834f1768f25a7a9e[0m (interface.py:72) (366)
+2025-10-14 20:24:32,882 | INFO | DB             | CaseType     Dataset               Filter | task_label (task_runner.py:420)
+2025-10-14 20:24:32,882 | INFO | -----------    | ------------ -------------------- ------- | -------    (task_runner.py:420)
+2025-10-14 20:24:32,882 | INFO | PgVectoRS-2025-10-14T20:24:32.769232 | Performance  Cohere-MEDIUM-1M         0.0 | 827657537159404e834f1768f25a7a9e (task_runner.py:420)
+2025-10-14 20:24:32,882 | [92mINFO[0m: [92mtask submitted: id=827657537159404e834f1768f25a7a9e, 827657537159404e834f1768f25a7a9e, case number: 1[0m (interface.py:247) (366)
+2025-10-14 20:24:33,408 | [92mINFO[0m: [92m[1/1] start case: {'label': <CaseLabel.Performance: 2>, 'name': 'Search Performance Test (1M Dataset, 768 Dim)', 'dataset': {'data': {'name': 'Cohere', 'size': 1000000, 'dim': 768, 'metric_type': <MetricType.COSINE: 'COSINE'>}}, 'db': 'PgVectoRS-2025-10-14T20:24:32.769232'}, drop_old=False[0m (interface.py:177) (385)
+2025-10-14 20:24:33,408 | [92mINFO[0m: [92mStarting run[0m (task_runner.py:118) (385)
+2025-10-14 20:24:33,468 | [92mINFO[0m: [92mPgVectorRS config values: {'host': '172.31.29.93', 'port': 5432, 'dbname': 'benchantdb', 'user': 'benchant', 'password': 'Performance99!'}
+metric_type=<MetricType.COSINE: 'COSINE'> create_index_before_load=False create_index_after_load=True max_parallel_workers=None maintenance_work_mem=None optimizing_threads=16 quantization_type='trivial' quantization_ratio=None index=<IndexType.HNSW: 'HNSW'> m=32 ef_search=64 ef_construction=128[0m (pgvecto_rs.py:49) (385)
+2025-10-14 20:24:33,468 | [94mDEBUG[0m: [94mDataset preparation: with_gt=True, is_custom=False[0m (dataset.py:389) (385)
+2025-10-14 20:24:33,468 | [94mDEBUG[0m: [94mGT and test files: gt_file=neighbors.parquet, test_file=test.parquet[0m (dataset.py:392) (385)
+2025-10-14 20:24:34,623 | [94mDEBUG[0m: [94mLoading test data from test.parquet, test_vector_field=emb[0m (dataset.py:417) (385)
+2025-10-14 20:24:34,624 | [92mINFO[0m: [92mRead the entire file into memory: test.parquet[0m (dataset.py:486) (385)
+2025-10-14 20:24:34,642 | [94mDEBUG[0m: [94mTest file shape: (1000, 2)[0m (dataset.py:419) (385)
+2025-10-14 20:24:34,658 | [94mDEBUG[0m: [94mLoaded 1000 test vectors, first vector length: 768[0m (dataset.py:422) (385)
+2025-10-14 20:24:34,658 | [94mDEBUG[0m: [94mLoading gt data from neighbors.parquet, gt_neighbors_field=neighbors_id[0m (dataset.py:427) (385)
+2025-10-14 20:24:34,696 | [94mDEBUG[0m: [94mGT file shape: (1000, 2)[0m (dataset.py:436) (385)
+2025-10-14 20:24:34,696 | [94mDEBUG[0m: [94mGT file columns: ['id', 'neighbors_id'][0m (dataset.py:437) (385)
+2025-10-14 20:24:34,696 | [94mDEBUG[0m: [94mRaw GT data loaded: 1000 entries[0m (dataset.py:441) (385)
+2025-10-14 20:24:34,696 | [94mDEBUG[0m: [94mFirst raw entry: type=<class 'numpy.ndarray'>, has_tolist=True, len=1000[0m (dataset.py:444) (385)
+2025-10-14 20:24:34,696 | [94mDEBUG[0m: [94mNumpy conversion: <class 'numpy.ndarray'> -> <class 'list'>, len: 1000 -> 1000[0m (dataset.py:453) (385)
+2025-10-14 20:24:34,719 | [94mDEBUG[0m: [94mLoaded 1000 ground truth entries, first entry length: 1000[0m (dataset.py:468) (385)
+2025-10-14 20:24:34,719 | [94mDEBUG[0m: [94mGT entry 0: type=<class 'list'>, len=1000, first_5=[142594, 34736, 186674, 47650, 604668][0m (dataset.py:473) (385)
+2025-10-14 20:24:34,719 | [94mDEBUG[0m: [94mGT entry 1: type=<class 'list'>, len=1000, first_5=[134627, 800615, 50554, 637900, 155633][0m (dataset.py:473) (385)
+2025-10-14 20:24:34,719 | [94mDEBUG[0m: [94mGT entry 2: type=<class 'list'>, len=1000, first_5=[835636, 859983, 82241, 814835, 303125][0m (dataset.py:473) (385)
+2025-10-14 20:24:34,719 | [94mDEBUG[0m: [94mCohere: available train files ['shuffle_train.parquet'][0m (dataset.py:480) (385)
+2025-10-14 20:24:34,719 | [92mINFO[0m: [92mStart performance case[0m (task_runner.py:163) (385)
+2025-10-14 20:24:34,719 | [92mINFO[0m: [92mRunning index-only mode - recreating indexes without data loading[0m (task_runner.py:169) (385)
+2025-10-14 20:24:35,396 | [94mDEBUG[0m: [94mSET "vectors.hnsw_ef_search" = '64';[0m (pgvecto_rs.py:125) (454)
+2025-10-14 20:24:35,399 | [92mINFO[0m: [92mPgVectorRS post insert before optimize[0m (pgvecto_rs.py:173) (454)
+2025-10-14 20:24:35,399 | [92mINFO[0m: [92mPgVectorRS client drop index : pgvectors_index[0m (pgvecto_rs.py:181) (454)
+2025-10-14 20:24:35,399 | [94mDEBUG[0m: [94mDROP INDEX IF EXISTS "pgvectors_index"[0m (pgvecto_rs.py:186) (454)
+2025-10-14 20:24:35,753 | [92mINFO[0m: [92mPgVectorRS client create index : pgvectors_index[0m (pgvecto_rs.py:222) (454)
+2025-10-14 20:24:35,753 | [94mDEBUG[0m: [94mUsing PostgreSQL instance default for maintenance_work_mem[0m (pgvecto_rs.py:204) (454)
+2025-10-14 20:24:35,753 | [94mDEBUG[0m: [94mUsing PostgreSQL instance default for max_parallel_maintenance_workers[0m (pgvecto_rs.py:215) (454)
+2025-10-14 20:24:35,754 | [94mDEBUG[0m: [94m
+            CREATE INDEX IF NOT EXISTS "pgvectors_index" ON public."PgVectoRSCollection"
+            USING vectors (embedding "vector_cos_ops") WITH (options = '[indexing.hnsw]
+m = 32
+ef_construction = 128
+
+[optimizing]
+optimizing_threads = 16
+')
+            [0m (pgvecto_rs.py:241) (454)
+2025-10-14 20:24:35,754 | [92mINFO[0m: [92mStarting index creation - this may take 10-30 minutes for large datasets...[0m (pgvecto_rs.py:242) (454)
+2025-10-14 20:24:35,754 | [92mINFO[0m: [92mIndex creation command: 
+            CREATE INDEX IF NOT EXISTS "pgvectors_index" ON public."PgVectoRSCollection"
+            USING vectors (embedding "vector_cos_ops") WITH (options = '[indexing.hnsw]
+m = 32
+ef_construction = 128
+
+[optimizing]
+optimizing_threads = 16
+')
+            [0m (pgvecto_rs.py:243) (454)
+2025-10-14 20:46:50,865 | [92mINFO[0m: [92mSuccessfully created pgvecto.rs index pgvectors_index[0m (pgvecto_rs.py:261) (454)
+2025-10-14 20:46:50,866 | [93mWARNING[0m: [93mPgVectoRS failed to get index size for 'pgvectors_index': column "public.PgVectoRSCollection" does not exist
+LINE 1: SELECT pg_size_pretty(pg_indexes_size("public.PgVectoRSColle...
+                                              ^[0m (pgvecto_rs.py:302) (454)
+2025-10-14 20:46:50,982 | [92mINFO[0m: [92mFinish recreating indexes without data loading, optimize_duration=1335.4954911200002[0m (task_runner.py:172) (385)
+2025-10-14 20:46:50,982 | [92mINFO[0m: [92m[1/1] finish case: {'label': <CaseLabel.Performance: 2>, 'name': 'Search Performance Test (1M Dataset, 768 Dim)', 'dataset': {'data': {'name': 'Cohere', 'size': 1000000, 'dim': 768, 'metric_type': <MetricType.COSINE: 'COSINE'>}}, 'db': 'PgVectoRS-2025-10-14T20:24:32.769232'}, result=Metric(max_load_count=0, insert_duration=0.0, optimize_duration=1335.4955, load_duration=0.0, qps=0.0, serial_latency_p99=0.0, serial_latency_p95=0.0, recall=0.0, ndcg=0.0, conc_num_list=[], conc_qps_list=[], conc_latency_p99_list=[], conc_latency_p95_list=[], conc_latency_avg_list=[], st_ideal_insert_duration=0, st_search_stage_list=[], st_search_time_list=[], st_max_qps_list_list=[], st_recall_list=[], st_ndcg_list=[], st_serial_latency_p99_list=[], st_serial_latency_p95_list=[], st_conc_failed_rate_list=[]), label=ResultLabel.NORMAL[0m (interface.py:179) (385)
+2025-10-14 20:46:50,983 | INFO |Task summary: run_id=82765, task_label=827657537159404e834f1768f25a7a9e (models.py:441)
+2025-10-14 20:46:50,983 | INFO |DB        | db_label                      case                                          label                            | load_dur    qps        latency(p99)    latency(p95)    recall        max_load_count | label (models.py:441)
+2025-10-14 20:46:50,983 | INFO |--------- | ----------------------------- --------------------------------------------- -------------------------------- | ----------- ---------- --------------- --------------- ------------- -------------- | ----- (models.py:441)
+2025-10-14 20:46:50,983 | INFO |PgVectoRS | 2025-10-14T20:24:32.769232    Search Performance Test (1M Dataset, 768 Dim) 827657537159404e834f1768f25a7a9e | 0.0         0.0        0.0             0.0             0.0           0              | :)    (models.py:441)
+2025-10-14 20:46:50,983 | [92mINFO[0m: [92mwrite results to disk /home/developer/results/PgVectoRS/result_20251014_827657537159404e834f1768f25a7a9e_pgvectors.json[0m (models.py:278) (385)
+2025-10-14 20:46:50,984 | [92mINFO[0m: [92mSuccess to finish task: label=827657537159404e834f1768f25a7a9e, run_id=827657537159404e834f1768f25a7a9e[0m (interface.py:218) (385)

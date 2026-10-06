@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "userId": "benchANT",
+    "projectId": "data2days",
+    "batchId": "atlas",
+    "configurationId": "cohere-10M-default-index-recall-numCandidates-240",
+    "configurationLabel": "cohere-10M-default-index-recall-numCandidates-240",
+    "executions": 1,
+    "executionCounter": 1,
+    "parentRunId": "data2days_atlas_cohere-10M-recall-numCandidates-60_0_Zs1mxcNz",
+    "keepDeployment": true
+  },
+  "resourceProvider": {
+    "name": "EC2",
+    "api": "EC2"
+  },
+  "dbaasProvider": {
+    "name": "ATLAS",
+    "api": "ATLAS"
+  },
+  "dbmsDeployment": {
+    "dbmsType": "MONGODB",
+    "operationType": "DBAAS",
+    "version": "8.0",
+    "DBAAS": {
+      "costs": {
+        "storageCosts": 0.0,
+        "vmCosts": 0.0
+      },
+      "mongodbAtlasInstance": {
+        "numShards": 1,
+        "clusterType": "REPLICASET",
+        "providerName": "AWS",
+        "regionName": "EU_WEST_1",
+        "electableNodes": {
+          "diskSizeGB": 500.0,
+          "instanceSize": "M60",
+          "nodeCount": 3
+        },
+        "searchNodes": {
+          "instanceSize": "S50_HIGHCPU_NVME",
+          "nodeCount": 2
+        }
+      }
+    }
+  },
+  "benchmarkDeployment": {
+    "benchmarkNodes": {
+      "numberOfNodes": 1,
+      "resource": {
+        "ec2Vm": {
+          "regionName": "eu-west-1",
+          "zones": [
+            "eu-west-1a"
+          ],
+          "instanceType": "r7i.4xlarge",
+          "architecture": "x86_64",
+          "imageDistribution": "ubuntu",
+          "imageVersion": "22.04",
+          "volumeType": "GP2",
+          "volumeSize": 200
+        }
+      }
+    }
+  },
+  "benchmark": {
+    "id": "vectorDBBenchV2",
+    "distribution": "VECTORDBBENCHV2",
+    "version": "dedicated-optimize-phase",
+    "vectorDBBenchV2": {
+      "executeLoadPhase": true,
+      "executeRunPhase": true,
+      "dbmsEndpoints": [],
+      "workload": {
+        "workloadPhase": "LOAD",
+        "searchSerial": true,
+        "searchConcurrent": false,
+        "caseType": "Performance768D10M",
+        "k": 10,
+        "concurrencyDuration": 300,
+        "numConcurrency": "32",
+        "concurrencyTimeout": 3600,
+        "logLevel": "DEBUG",
+        "numPerBatch": 100000,
+        "batchSize": 10000,
+        "exactSearch": false,
+        "quantization": "SCALAR",
+        "numCandidatesRatio": 24,
+        "numOfWorkers": 16
+      }
+    }
+  }
+}

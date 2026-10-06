@@ -1,0 +1,5 @@
+This will show you:
+
+index_size_pretty: Human-readable format (e.g., "3.36 GB")
+index_size_bytes: Raw bytes (3608290395)
+index_size_gb: Size in GB with 3 decimal places (3.361)

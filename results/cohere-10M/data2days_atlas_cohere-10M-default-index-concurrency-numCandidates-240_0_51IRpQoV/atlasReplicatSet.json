@@ -1,0 +1,510 @@
+{
+  "set": "atlas-1314s5-shard-0",
+  "date": {
+    "$date": {
+      "$numberLong": "1761058684279"
+    }
+  },
+  "myState": {
+    "$numberInt": "1"
+  },
+  "term": {
+    "$numberLong": "3"
+  },
+  "syncSourceHost": "",
+  "syncSourceId": {
+    "$numberInt": "-1"
+  },
+  "heartbeatIntervalMillis": {
+    "$numberLong": "2000"
+  },
+  "majorityVoteCount": {
+    "$numberInt": "2"
+  },
+  "writeMajorityCount": {
+    "$numberInt": "2"
+  },
+  "votingMembersCount": {
+    "$numberInt": "3"
+  },
+  "writableVotingMembersCount": {
+    "$numberInt": "3"
+  },
+  "optimes": {
+    "lastCommittedOpTime": {
+      "ts": {
+        "$timestamp": {
+          "t": 1761058681,
+          "i": 1
+        }
+      },
+      "t": {
+        "$numberLong": "3"
+      }
+    },
+    "lastCommittedWallTime": {
+      "$date": {
+        "$numberLong": "1761058681495"
+      }
+    },
+    "readConcernMajorityOpTime": {
+      "ts": {
+        "$timestamp": {
+          "t": 1761058681,
+          "i": 1
+        }
+      },
+      "t": {
+        "$numberLong": "3"
+      }
+    },
+    "appliedOpTime": {
+      "ts": {
+        "$timestamp": {
+          "t": 1761058681,
+          "i": 1
+        }
+      },
+      "t": {
+        "$numberLong": "3"
+      }
+    },
+    "durableOpTime": {
+      "ts": {
+        "$timestamp": {
+          "t": 1761058681,
+          "i": 1
+        }
+      },
+      "t": {
+        "$numberLong": "3"
+      }
+    },
+    "writtenOpTime": {
+      "ts": {
+        "$timestamp": {
+          "t": 1761058681,
+          "i": 1
+        }
+      },
+      "t": {
+        "$numberLong": "3"
+      }
+    },
+    "lastAppliedWallTime": {
+      "$date": {
+        "$numberLong": "1761058681495"
+      }
+    },
+    "lastDurableWallTime": {
+      "$date": {
+        "$numberLong": "1761058681495"
+      }
+    },
+    "lastWrittenWallTime": {
+      "$date": {
+        "$numberLong": "1761058681495"
+      }
+    }
+  },
+  "lastStableRecoveryTimestamp": {
+    "$timestamp": {
+      "t": 1761058631,
+      "i": 1
+    }
+  },
+  "electionCandidateMetrics": {
+    "lastElectionReason": "stepUpRequestSkipDryRun",
+    "lastElectionDate": {
+      "$date": {
+        "$numberLong": "1761036891113"
+      }
+    },
+    "electionTerm": {
+      "$numberLong": "3"
+    },
+    "lastCommittedOpTimeAtElection": {
+      "ts": {
+        "$timestamp": {
+          "t": 1761036884,
+          "i": 1
+        }
+      },
+      "t": {
+        "$numberLong": "2"
+      }
+    },
+    "lastSeenWrittenOpTimeAtElection": {
+      "ts": {
+        "$timestamp": {
+          "t": 1761036884,
+          "i": 1
+        }
+      },
+      "t": {
+        "$numberLong": "2"
+      }
+    },
+    "lastSeenOpTimeAtElection": {
+      "ts": {
+        "$timestamp": {
+          "t": 1761036884,
+          "i": 1
+        }
+      },
+      "t": {
+        "$numberLong": "2"
+      }
+    },
+    "numVotesNeeded": {
+      "$numberInt": "2"
+    },
+    "priorityAtElection": {
+      "$numberInt": "7"
+    },
+    "electionTimeoutMillis": {
+      "$numberLong": "5000"
+    },
+    "priorPrimaryMemberId": {
+      "$numberInt": "2"
+    },
+    "numCatchUpOps": {
+      "$numberLong": "0"
+    },
+    "newTermStartDate": {
+      "$date": {
+        "$numberLong": "1761036891157"
+      }
+    },
+    "wMajorityWriteAvailabilityDate": {
+      "$date": {
+        "$numberLong": "1761036891216"
+      }
+    }
+  },
+  "members": [
+    {
+      "_id": {
+        "$numberInt": "0"
+      },
+      "name": "atlas-1314s5-shard-00-00.kyecfb.mongodb.net:27017",
+      "health": {
+        "$numberInt": "1"
+      },
+      "state": {
+        "$numberInt": "2"
+      },
+      "stateStr": "SECONDARY",
+      "uptime": {
+        "$numberInt": "21813"
+      },
+      "optime": {
+        "ts": {
+          "$timestamp": {
+            "t": 1761058681,
+            "i": 1
+          }
+        },
+        "t": {
+          "$numberLong": "3"
+        }
+      },
+      "optimeDurable": {
+        "ts": {
+          "$timestamp": {
+            "t": 1761058681,
+            "i": 1
+          }
+        },
+        "t": {
+          "$numberLong": "3"
+        }
+      },
+      "optimeWritten": {
+        "ts": {
+          "$timestamp": {
+            "t": 1761058681,
+            "i": 1
+          }
+        },
+        "t": {
+          "$numberLong": "3"
+        }
+      },
+      "optimeDate": {
+        "$date": {
+          "$numberLong": "1761058681000"
+        }
+      },
+      "optimeDurableDate": {
+        "$date": {
+          "$numberLong": "1761058681000"
+        }
+      },
+      "optimeWrittenDate": {
+        "$date": {
+          "$numberLong": "1761058681000"
+        }
+      },
+      "lastAppliedWallTime": {
+        "$date": {
+          "$numberLong": "1761058681495"
+        }
+      },
+      "lastDurableWallTime": {
+        "$date": {
+          "$numberLong": "1761058681495"
+        }
+      },
+      "lastWrittenWallTime": {
+        "$date": {
+          "$numberLong": "1761058681495"
+        }
+      },
+      "lastHeartbeat": {
+        "$date": {
+          "$numberLong": "1761058684169"
+        }
+      },
+      "lastHeartbeatRecv": {
+        "$date": {
+          "$numberLong": "1761058683235"
+        }
+      },
+      "pingMs": {
+        "$numberLong": "0"
+      },
+      "lastHeartbeatMessage": "",
+      "syncSourceHost": "atlas-1314s5-shard-00-01.kyecfb.mongodb.net:27017",
+      "syncSourceId": {
+        "$numberInt": "1"
+      },
+      "infoMessage": "",
+      "configVersion": {
+        "$numberInt": "1"
+      },
+      "configTerm": {
+        "$numberInt": "3"
+      }
+    },
+    {
+      "_id": {
+        "$numberInt": "1"
+      },
+      "name": "atlas-1314s5-shard-00-01.kyecfb.mongodb.net:27017",
+      "health": {
+        "$numberInt": "1"
+      },
+      "state": {
+        "$numberInt": "1"
+      },
+      "stateStr": "PRIMARY",
+      "uptime": {
+        "$numberInt": "21815"
+      },
+      "optime": {
+        "ts": {
+          "$timestamp": {
+            "t": 1761058681,
+            "i": 1
+          }
+        },
+        "t": {
+          "$numberLong": "3"
+        }
+      },
+      "optimeDate": {
+        "$date": {
+          "$numberLong": "1761058681000"
+        }
+      },
+      "optimeWritten": {
+        "ts": {
+          "$timestamp": {
+            "t": 1761058681,
+            "i": 1
+          }
+        },
+        "t": {
+          "$numberLong": "3"
+        }
+      },
+      "optimeWrittenDate": {
+        "$date": {
+          "$numberLong": "1761058681000"
+        }
+      },
+      "lastAppliedWallTime": {
+        "$date": {
+          "$numberLong": "1761058681495"
+        }
+      },
+      "lastDurableWallTime": {
+        "$date": {
+          "$numberLong": "1761058681495"
+        }
+      },
+      "lastWrittenWallTime": {
+        "$date": {
+          "$numberLong": "1761058681495"
+        }
+      },
+      "syncSourceHost": "",
+      "syncSourceId": {
+        "$numberInt": "-1"
+      },
+      "infoMessage": "",
+      "electionTime": {
+        "$timestamp": {
+          "t": 1761036891,
+          "i": 1
+        }
+      },
+      "electionDate": {
+        "$date": {
+          "$numberLong": "1761036891000"
+        }
+      },
+      "configVersion": {
+        "$numberInt": "1"
+      },
+      "configTerm": {
+        "$numberInt": "3"
+      },
+      "self": true,
+      "lastHeartbeatMessage": ""
+    },
+    {
+      "_id": {
+        "$numberInt": "2"
+      },
+      "name": "atlas-1314s5-shard-00-02.kyecfb.mongodb.net:27017",
+      "health": {
+        "$numberInt": "1"
+      },
+      "state": {
+        "$numberInt": "2"
+      },
+      "stateStr": "SECONDARY",
+      "uptime": {
+        "$numberInt": "21775"
+      },
+      "optime": {
+        "ts": {
+          "$timestamp": {
+            "t": 1761058681,
+            "i": 1
+          }
+        },
+        "t": {
+          "$numberLong": "3"
+        }
+      },
+      "optimeDurable": {
+        "ts": {
+          "$timestamp": {
+            "t": 1761058681,
+            "i": 1
+          }
+        },
+        "t": {
+          "$numberLong": "3"
+        }
+      },
+      "optimeWritten": {
+        "ts": {
+          "$timestamp": {
+            "t": 1761058681,
+            "i": 1
+          }
+        },
+        "t": {
+          "$numberLong": "3"
+        }
+      },
+      "optimeDate": {
+        "$date": {
+          "$numberLong": "1761058681000"
+        }
+      },
+      "optimeDurableDate": {
+        "$date": {
+          "$numberLong": "1761058681000"
+        }
+      },
+      "optimeWrittenDate": {
+        "$date": {
+          "$numberLong": "1761058681000"
+        }
+      },
+      "lastAppliedWallTime": {
+        "$date": {
+          "$numberLong": "1761058681495"
+        }
+      },
+      "lastDurableWallTime": {
+        "$date": {
+          "$numberLong": "1761058681495"
+        }
+      },
+      "lastWrittenWallTime": {
+        "$date": {
+          "$numberLong": "1761058681495"
+        }
+      },
+      "lastHeartbeat": {
+        "$date": {
+          "$numberLong": "1761058683176"
+        }
+      },
+      "lastHeartbeatRecv": {
+        "$date": {
+          "$numberLong": "1761058683686"
+        }
+      },
+      "pingMs": {
+        "$numberLong": "0"
+      },
+      "lastHeartbeatMessage": "",
+      "syncSourceHost": "atlas-1314s5-shard-00-01.kyecfb.mongodb.net:27017",
+      "syncSourceId": {
+        "$numberInt": "1"
+      },
+      "infoMessage": "",
+      "configVersion": {
+        "$numberInt": "1"
+      },
+      "configTerm": {
+        "$numberInt": "3"
+      }
+    }
+  ],
+  "ok": {
+    "$numberInt": "1"
+  },
+  "$clusterTime": {
+    "clusterTime": {
+      "$timestamp": {
+        "t": 1761058681,
+        "i": 1
+      }
+    },
+    "signature": {
+      "hash": {
+        "$binary": {
+          "base64": "BFaVchhENis7XyBehwfQCFFPQzw=",
+          "subType": "00"
+        }
+      },
+      "keyId": {
+        "$numberLong": "7563595201059487749"
+      }
+    }
+  },
+  "operationTime": {
+    "$timestamp": {
+      "t": 1761058681,
+      "i": 1
+    }
+  }
+}

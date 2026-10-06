@@ -1,0 +1,4112 @@
+[
+    {
+        "end": "2025-10-21T10:55:54Z",
+        "granularity": "PT1M",
+        "groupId": "68f7484c648ed318b49b8db9",
+        "hostId": "atlas-1314s5-shard-00-00.kyecfb.mongodb.net:27017",
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/cohere-10m-recall-numca-shard-00-00.kyecfb.mongodb.net:27017/measurements?granularity=PT1M&start=2025-10-21T10:55:20.663582Z&end=2025-10-21T10:56:26Z&pretty=true",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/atlas-1314s5-shard-00-00.kyecfb.mongodb.net:27017",
+                "rel": "https://cloud.mongodb.com/host"
+            }
+        ],
+        "measurements": [
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_REGULAR",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_WARNING",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_MSG",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_USER",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "CACHE_BYTES_READ_INTO",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "CACHE_BYTES_WRITTEN_FROM",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 155359
+                    }
+                ],
+                "name": "CACHE_DIRTY_BYTES",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 30906145042
+                    }
+                ],
+                "name": "CACHE_USED_BYTES",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 79.95441825543013
+                    }
+                ],
+                "name": "CACHE_FILL_RATIO",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.00040191484408246144
+                    }
+                ],
+                "name": "DIRTY_FILL_RATIO",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 65
+                    }
+                ],
+                "name": "CONNECTIONS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1
+                    }
+                ],
+                "name": "CURSORS_TOTAL_OPEN",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "CURSORS_TOTAL_TIMED_OUT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_STORAGE_TOTAL",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_DATA_SIZE_TOTAL",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_DATA_SIZE_TOTAL_WO_SYSTEM",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_INDEX_SIZE_TOTAL",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_RETURNED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_INSERTED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_UPDATED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_DELETED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "EXTRA_INFO_PAGE_FAULTS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "GLOBAL_LOCK_CURRENT_QUEUE_TOTAL",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "GLOBAL_LOCK_CURRENT_QUEUE_READERS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "GLOBAL_LOCK_CURRENT_QUEUE_WRITERS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 30816
+                    }
+                ],
+                "name": "MEMORY_RESIDENT",
+                "units": "MEGABYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 38058
+                    }
+                ],
+                "name": "MEMORY_VIRTUAL",
+                "units": "MEGABYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "MEMORY_MAPPED",
+                "units": "MEGABYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "NETWORK_BYTES_IN",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "NETWORK_BYTES_OUT",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "NETWORK_NUM_REQUESTS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_CMD",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_QUERY",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_UPDATE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_DELETE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_TTL_DELETED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_GETMORE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_INSERT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_CMD",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_UPDATE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_DELETE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_INSERT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPERATIONS_SCAN_AND_ORDER",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPERATIONS_QUERIES_KILLED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OP_EXECUTION_TIME_READS",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OP_EXECUTION_TIME_WRITES",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OP_EXECUTION_TIME_COMMANDS",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "OPLOG_SLAVE_LAG_MASTER_TIME",
+                "units": "SECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "OPLOG_REPLICATION_LAG_TIME",
+                "units": "SECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 4304
+                    }
+                ],
+                "name": "OPLOG_MASTER_TIME",
+                "units": "SECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 4288.0
+                    }
+                ],
+                "name": "OPLOG_MASTER_LAG_TIME_DIFF",
+                "units": "SECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 22.0653324
+                    }
+                ],
+                "name": "OPLOG_RATE_GB_PER_HOUR",
+                "units": "GIGABYTES_PER_HOUR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_EXECUTOR_SCANNED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_EXECUTOR_SCANNED_OBJECTS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_TARGETING_SCANNED_PER_RETURNED",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_TARGETING_SCANNED_OBJECTS_PER_RETURNED",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 16
+                    }
+                ],
+                "name": "TICKETS_AVAILABLE_READS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 16
+                    }
+                ],
+                "name": "TICKETS_AVAILABLE_WRITE",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "OPERATION_THROTTLING_REJECTED_OPERATIONS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_SPILL_TO_DISK_DURING_SORT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 11.0
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1.0
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.6875
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0625
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_RESIDENT_MEMORY",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_VIRTUAL_MEMORY",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_SHARED_MEMORY",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_DISK_USAGE",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NETWORK_IN",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NETWORK_OUT",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SWAP_IO_IN",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SWAP_IO_OUT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 25.974025974025974
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 7.992007992007992
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1.6233766233766234
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.4995004995004995
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0625
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0625
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 151277
+                    }
+                ],
+                "name": "MAX_SYSTEM_NETWORK_IN",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 399758
+                    }
+                ],
+                "name": "MAX_SYSTEM_NETWORK_OUT",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SWAP_IO_IN",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SWAP_IO_OUT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 32482521
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 31441494
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_AVAILABLE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1888893
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_FREE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 57740
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_SHARED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 30023566
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_CACHED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 3412
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_BUFFERS",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "SWAP_USAGE_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "SWAP_USAGE_FREE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 32488908
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 31446212
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_AVAILABLE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1893900
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_FREE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 57744
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_SHARED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 30024076
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_CACHED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 3412
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_BUFFERS",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "MAX_SWAP_USAGE_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "MAX_SWAP_USAGE_FREE",
+                "units": "KILOBYTES"
+            }
+        ],
+        "processId": "atlas-1314s5-shard-00-00.kyecfb.mongodb.net:27017",
+        "start": "2025-10-21T10:55:54Z"
+    },
+    {
+        "end": "2025-10-21T10:55:54Z",
+        "granularity": "PT1M",
+        "groupId": "68f7484c648ed318b49b8db9",
+        "hostId": "atlas-1314s5-shard-00-01.kyecfb.mongodb.net:27017",
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/cohere-10m-recall-numca-shard-00-01.kyecfb.mongodb.net:27017/measurements?granularity=PT1M&start=2025-10-21T10:55:20.663582Z&end=2025-10-21T10:56:26Z&pretty=true",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/atlas-1314s5-shard-00-01.kyecfb.mongodb.net:27017",
+                "rel": "https://cloud.mongodb.com/host"
+            }
+        ],
+        "measurements": [
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_REGULAR",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_WARNING",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_MSG",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_USER",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "CACHE_BYTES_READ_INTO",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "CACHE_BYTES_WRITTEN_FROM",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 6230007
+                    }
+                ],
+                "name": "CACHE_DIRTY_BYTES",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 29228754428
+                    }
+                ],
+                "name": "CACHE_USED_BYTES",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 75.61499674080146
+                    }
+                ],
+                "name": "CACHE_FILL_RATIO",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.01611707266420126
+                    }
+                ],
+                "name": "DIRTY_FILL_RATIO",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 82
+                    }
+                ],
+                "name": "CONNECTIONS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 3
+                    }
+                ],
+                "name": "CURSORS_TOTAL_OPEN",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "CURSORS_TOTAL_TIMED_OUT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_STORAGE_TOTAL",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_DATA_SIZE_TOTAL",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_DATA_SIZE_TOTAL_WO_SYSTEM",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_INDEX_SIZE_TOTAL",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_RETURNED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_INSERTED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_UPDATED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_DELETED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "EXTRA_INFO_PAGE_FAULTS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "GLOBAL_LOCK_CURRENT_QUEUE_TOTAL",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "GLOBAL_LOCK_CURRENT_QUEUE_READERS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "GLOBAL_LOCK_CURRENT_QUEUE_WRITERS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 30982
+                    }
+                ],
+                "name": "MEMORY_RESIDENT",
+                "units": "MEGABYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 38052
+                    }
+                ],
+                "name": "MEMORY_VIRTUAL",
+                "units": "MEGABYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "MEMORY_MAPPED",
+                "units": "MEGABYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "NETWORK_BYTES_IN",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "NETWORK_BYTES_OUT",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "NETWORK_NUM_REQUESTS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_CMD",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_QUERY",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_UPDATE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_DELETE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_TTL_DELETED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_GETMORE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_INSERT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_CMD",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_UPDATE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_DELETE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_INSERT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPERATIONS_SCAN_AND_ORDER",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPERATIONS_QUERIES_KILLED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OP_EXECUTION_TIME_READS",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OP_EXECUTION_TIME_WRITES",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "OP_EXECUTION_TIME_COMMANDS",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 4305
+                    }
+                ],
+                "name": "OPLOG_MASTER_TIME",
+                "units": "SECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 22.0386816
+                    }
+                ],
+                "name": "OPLOG_RATE_GB_PER_HOUR",
+                "units": "GIGABYTES_PER_HOUR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_EXECUTOR_SCANNED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_EXECUTOR_SCANNED_OBJECTS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_TARGETING_SCANNED_PER_RETURNED",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_TARGETING_SCANNED_OBJECTS_PER_RETURNED",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 16
+                    }
+                ],
+                "name": "TICKETS_AVAILABLE_READS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 16
+                    }
+                ],
+                "name": "TICKETS_AVAILABLE_WRITE",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "OPERATION_THROTTLING_REJECTED_OPERATIONS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_SPILL_TO_DISK_DURING_SORT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 10.989010989010989
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 2.997002997002997
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.6868131868131868
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.18731268731268733
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_RESIDENT_MEMORY",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_VIRTUAL_MEMORY",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_SHARED_MEMORY",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_DISK_USAGE",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NETWORK_IN",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NETWORK_OUT",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SWAP_IO_IN",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SWAP_IO_OUT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 29.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 7.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 19.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.999000999000999
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1.8125
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.4375
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1.1875
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.06243756243756244
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 476875
+                    }
+                ],
+                "name": "MAX_SYSTEM_NETWORK_IN",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 542483
+                    }
+                ],
+                "name": "MAX_SYSTEM_NETWORK_OUT",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SWAP_IO_IN",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SWAP_IO_OUT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 32672085
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 31252900
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_AVAILABLE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 2045652
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_FREE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 57736
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_SHARED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 29677243
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_CACHED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 3412
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_BUFFERS",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "SWAP_USAGE_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "SWAP_USAGE_FREE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 32684668
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 31264448
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_AVAILABLE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 2068560
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_FREE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 57736
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_SHARED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 29739312
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_CACHED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 3412
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_BUFFERS",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "MAX_SWAP_USAGE_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "MAX_SWAP_USAGE_FREE",
+                "units": "KILOBYTES"
+            }
+        ],
+        "processId": "atlas-1314s5-shard-00-01.kyecfb.mongodb.net:27017",
+        "start": "2025-10-21T10:55:54Z"
+    },
+    {
+        "end": "2025-10-21T10:55:58Z",
+        "granularity": "PT1M",
+        "groupId": "68f7484c648ed318b49b8db9",
+        "hostId": "atlas-1314s5-shard-00-02.kyecfb.mongodb.net:27017",
+        "links": [
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/cohere-10m-recall-numca-shard-00-02.kyecfb.mongodb.net:27017/measurements?granularity=PT1M&start=2025-10-21T10:55:20.663582Z&end=2025-10-21T10:56:26Z&pretty=true",
+                "rel": "self"
+            },
+            {
+                "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/processes/atlas-1314s5-shard-00-02.kyecfb.mongodb.net:27017",
+                "rel": "https://cloud.mongodb.com/host"
+            }
+        ],
+        "measurements": [
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_REGULAR",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_WARNING",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_MSG",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "ASSERT_USER",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "CACHE_BYTES_READ_INTO",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "CACHE_BYTES_WRITTEN_FROM",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 6677496
+                    }
+                ],
+                "name": "CACHE_DIRTY_BYTES",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 30785300437
+                    }
+                ],
+                "name": "CACHE_USED_BYTES",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 79.6417923980496
+                    }
+                ],
+                "name": "CACHE_FILL_RATIO",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 0.017274729907512665
+                    }
+                ],
+                "name": "DIRTY_FILL_RATIO",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 48
+                    }
+                ],
+                "name": "CONNECTIONS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 2
+                    }
+                ],
+                "name": "CURSORS_TOTAL_OPEN",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "CURSORS_TOTAL_TIMED_OUT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_STORAGE_TOTAL",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_DATA_SIZE_TOTAL",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_DATA_SIZE_TOTAL_WO_SYSTEM",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "DB_INDEX_SIZE_TOTAL",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_RETURNED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_INSERTED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_UPDATED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "DOCUMENT_METRICS_DELETED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "EXTRA_INFO_PAGE_FAULTS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 0
+                    }
+                ],
+                "name": "GLOBAL_LOCK_CURRENT_QUEUE_TOTAL",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 0
+                    }
+                ],
+                "name": "GLOBAL_LOCK_CURRENT_QUEUE_READERS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 0
+                    }
+                ],
+                "name": "GLOBAL_LOCK_CURRENT_QUEUE_WRITERS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 30797
+                    }
+                ],
+                "name": "MEMORY_RESIDENT",
+                "units": "MEGABYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 38060
+                    }
+                ],
+                "name": "MEMORY_VIRTUAL",
+                "units": "MEGABYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "MEMORY_MAPPED",
+                "units": "MEGABYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "NETWORK_BYTES_IN",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "NETWORK_BYTES_OUT",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "NETWORK_NUM_REQUESTS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_CMD",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_QUERY",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_UPDATE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_DELETE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_TTL_DELETED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_GETMORE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_INSERT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_CMD",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_UPDATE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_DELETE",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPCOUNTER_REPL_INSERT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPERATIONS_SCAN_AND_ORDER",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OPERATIONS_QUERIES_KILLED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OP_EXECUTION_TIME_READS",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OP_EXECUTION_TIME_WRITES",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "OP_EXECUTION_TIME_COMMANDS",
+                "units": "MILLISECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 0
+                    }
+                ],
+                "name": "OPLOG_SLAVE_LAG_MASTER_TIME",
+                "units": "SECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "OPLOG_REPLICATION_LAG_TIME",
+                "units": "SECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 4304
+                    }
+                ],
+                "name": "OPLOG_MASTER_TIME",
+                "units": "SECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 4288.0
+                    }
+                ],
+                "name": "OPLOG_MASTER_LAG_TIME_DIFF",
+                "units": "SECONDS"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 22.0601628
+                    }
+                ],
+                "name": "OPLOG_RATE_GB_PER_HOUR",
+                "units": "GIGABYTES_PER_HOUR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_EXECUTOR_SCANNED",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_EXECUTOR_SCANNED_OBJECTS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_TARGETING_SCANNED_PER_RETURNED",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_TARGETING_SCANNED_OBJECTS_PER_RETURNED",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 16
+                    }
+                ],
+                "name": "TICKETS_AVAILABLE_READS",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 16
+                    }
+                ],
+                "name": "TICKETS_AVAILABLE_WRITE",
+                "units": "SCALAR"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": 0
+                    }
+                ],
+                "name": "OPERATION_THROTTLING_REJECTED_OPERATIONS",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:58Z",
+                        "value": null
+                    }
+                ],
+                "name": "QUERY_SPILL_TO_DISK_DURING_SORT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "PROCESS_NORMALIZED_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 31.96803196803197
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1.998001998001998
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1.998001998001998
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.12487512487512488
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_CHILDREN_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_PROCESS_NORMALIZED_CPU_CHILDREN_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_RESIDENT_MEMORY",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_VIRTUAL_MEMORY",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_SHARED_MEMORY",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_DISK_USAGE",
+                "units": "BYTES"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [],
+                "name": "FTS_PROCESS_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NORMALIZED_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NETWORK_IN",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SYSTEM_NETWORK_OUT",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SWAP_IO_IN",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": null
+                    }
+                ],
+                "name": "SWAP_IO_OUT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 32.967032967032964
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 6.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 3.996003996003996
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 2.0604395604395602
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_USER",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.375
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_KERNEL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_NICE",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.24975024975024976
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_IOWAIT",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_IRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0625
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_SOFTIRQ",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_GUEST",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SYSTEM_NORMALIZED_CPU_STEAL",
+                "units": "PERCENT"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 50492
+                    }
+                ],
+                "name": "MAX_SYSTEM_NETWORK_IN",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 395639
+                    }
+                ],
+                "name": "MAX_SYSTEM_NETWORK_OUT",
+                "units": "BYTES_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SWAP_IO_IN",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0.0
+                    }
+                ],
+                "name": "MAX_SWAP_IO_OUT",
+                "units": "SCALAR_PER_SECOND"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 32432105
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 31492398
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_AVAILABLE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1851429
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_FREE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 57736
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_SHARED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 30111430
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_CACHED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 3428
+                    }
+                ],
+                "name": "SYSTEM_MEMORY_BUFFERS",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "SWAP_USAGE_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "SWAP_USAGE_FREE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 32447064
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 31500700
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_AVAILABLE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 1864972
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_FREE",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 57736
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_SHARED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 30112584
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_CACHED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 3428
+                    }
+                ],
+                "name": "MAX_SYSTEM_MEMORY_BUFFERS",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "MAX_SWAP_USAGE_USED",
+                "units": "KILOBYTES"
+            },
+            {
+                "dataPoints": [
+                    {
+                        "timestamp": "2025-10-21T10:55:54Z",
+                        "value": 0
+                    }
+                ],
+                "name": "MAX_SWAP_USAGE_FREE",
+                "units": "KILOBYTES"
+            }
+        ],
+        "processId": "atlas-1314s5-shard-00-02.kyecfb.mongodb.net:27017",
+        "start": "2025-10-21T10:55:54Z"
+    }
+]

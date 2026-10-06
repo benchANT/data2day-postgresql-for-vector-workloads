@@ -1,0 +1,132 @@
+{
+    "advancedConfiguration": {
+        "customOpensslCipherConfigTls12": [],
+        "minimumEnabledTlsProtocol": "TLS1_2",
+        "tlsCipherConfigMode": "DEFAULT"
+    },
+    "backupEnabled": false,
+    "biConnector": {
+        "enabled": false,
+        "readPreference": "secondary"
+    },
+    "clusterType": "REPLICASET",
+    "connectionStrings": {
+        "standard": "mongodb://cohere-10m-recall-numca-shard-00-00.kyecfb.mongodb.net:27017,cohere-10m-recall-numca-shard-00-01.kyecfb.mongodb.net:27017,cohere-10m-recall-numca-shard-00-02.kyecfb.mongodb.net:27017/?ssl=true&authSource=admin&replicaSet=atlas-1314s5-shard-0",
+        "standardSrv": "mongodb+srv://cohere-10m-recall-numca.kyecfb.mongodb.net"
+    },
+    "createDate": "2025-10-21T08:46:07Z",
+    "diskWarmingMode": "FULLY_WARMED",
+    "encryptionAtRestProvider": "NONE",
+    "featureCompatibilityVersion": "8.0",
+    "globalClusterSelfManagedSharding": false,
+    "groupId": "68f7484c648ed318b49b8db9",
+    "id": "68f7484f63d3356898b5120b",
+    "internalClusterRole": "NONE",
+    "labels": [],
+    "links": [
+        {
+            "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/clusters/cohere-10M-recall-numCandidates-60",
+            "rel": "self"
+        },
+        {
+            "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/clusters/cohere-10M-recall-numCandidates-60/backup/restoreJobs",
+            "rel": "https://cloud.mongodb.com/restoreJobs"
+        },
+        {
+            "href": "https://cloud.mongodb.com/api/atlas/v2/groups/68f7484c648ed318b49b8db9/clusters/cohere-10M-recall-numCandidates-60/backup/snapshots",
+            "rel": "https://cloud.mongodb.com/snapshots"
+        }
+    ],
+    "mongoDBMajorVersion": "8.0",
+    "mongoDBVersion": "8.0.15",
+    "name": "cohere-10M-recall-numCandidates-60",
+    "paused": false,
+    "pitEnabled": false,
+    "projectId": "68f7484c648ed318b49b8db9",
+    "projectName": "data2days-535c9453",
+    "redactClientLogData": false,
+    "replicationSpecs": [
+        {
+            "id": "68f7484f63d3356898b5111c",
+            "regionConfigs": [
+                {
+                    "analyticsSpecs": {
+                        "diskIOPS": 3000,
+                        "diskSizeGB": 500.0,
+                        "ebsVolumeType": "STANDARD",
+                        "instanceSize": "M60",
+                        "nodeCount": 0
+                    },
+                    "autoScaling": {
+                        "compute": {
+                            "enabled": false,
+                            "predictiveEnabled": false,
+                            "scaleDownEnabled": false
+                        },
+                        "diskGB": {
+                            "enabled": false
+                        }
+                    },
+                    "effectiveAnalyticsSpecs": {
+                        "diskIOPS": 3000,
+                        "diskSizeGB": 500.0,
+                        "ebsVolumeType": "STANDARD",
+                        "instanceSize": "M60",
+                        "nodeCount": 0
+                    },
+                    "effectiveElectableSpecs": {
+                        "diskIOPS": 3000,
+                        "diskSizeGB": 500.0,
+                        "ebsVolumeType": "STANDARD",
+                        "instanceSize": "M60",
+                        "nodeCount": 3
+                    },
+                    "effectiveReadOnlySpecs": {
+                        "diskIOPS": 3000,
+                        "diskSizeGB": 500.0,
+                        "ebsVolumeType": "STANDARD",
+                        "instanceSize": "M60",
+                        "nodeCount": 0
+                    },
+                    "electableSpecs": {
+                        "diskIOPS": 3000,
+                        "diskSizeGB": 500.0,
+                        "ebsVolumeType": "STANDARD",
+                        "instanceSize": "M60",
+                        "nodeCount": 3
+                    },
+                    "priority": 7,
+                    "providerName": "AWS",
+                    "readOnlySpecs": {
+                        "diskIOPS": 3000,
+                        "diskSizeGB": 500.0,
+                        "ebsVolumeType": "STANDARD",
+                        "instanceSize": "M60",
+                        "nodeCount": 0
+                    },
+                    "regionName": "EU_WEST_1"
+                }
+            ],
+            "zoneId": "68f7484f63d3356898b5111a",
+            "zoneName": "Zone 1"
+        }
+    ],
+    "rootCertType": "ISRGROOTX1",
+    "searchNodes": {
+        "encryptionAtRestProvider": "NONE",
+        "groupId": "68f7484c648ed318b49b8db9",
+        "id": "68f74a0c2f545f4a477e4d63",
+        "specs": [
+            {
+                "instanceSize": "S50_HIGHCPU_NVME",
+                "nodeCount": 2
+            }
+        ],
+        "stateName": "UPDATING"
+    },
+    "stateName": "IDLE",
+    "tags": [],
+    "terminationProtectionEnabled": false,
+    "useAwsTimeBasedSnapshotCopyForFastInitialSync": false,
+    "versionReleaseSystem": "LTS"
+}
